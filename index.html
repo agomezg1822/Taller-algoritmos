@@ -3,19 +3,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nota Final</title>
+    <title>Nota final algoritmos</title>
     <script src="ejercicio06.js"></script>
 </head>
 <body>
-    <label for="a">Ingrese la nota del 55%</label>
-    <input type="text" id="a"/><br>
-    <label for="b">Ingrese la nota del 30%</label>
-    <input type="text" id="b"/><br>
-    <label for="c">Ingrese la nota del 15%</label>
-    <input type="text" id="c"/><br>
-    <input type="button" value="Aceptar" onclick="calificacion()" />
-    <label for="nota">Su calificacion final es: </label>
-    <div id="nota">        </div>
+    <form>
+        <label for="parcial1">Ingrese la nota del primer parcial</label>
+        <input type="text" id="parcial1"/><br>
+        <label for="parcial2">Ingrese la nota del segundo parcial</label>
+        <input type="text" id="parcial2"/><br>
+        <label for="parcial3">Ingrese la nota del tercer parcial</label>
+        <input type="text" id="parcial3"/><br>
+        <label for="examenFinal">Ingrese la nota de su examen final</label>
+        <input type="text" id="examenFinal"/><br>
+        <label for="trabajoFinal">Ingrese la nota de su trabajo final</label>
+        <input type="text" id="trabajoFinal"/><br>
+        <input type="button" value="Aceptar" onclick="calificacion()" />
+    </form>
+    <label>Su nota final es: </label>
+    <div id="nota"></div>
     
 </body>
 </html>
